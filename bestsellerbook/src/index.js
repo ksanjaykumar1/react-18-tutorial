@@ -18,15 +18,19 @@ const books = [
   },
 ];
 const BookList = () => {
+  const getBook = (id) => {
+    const book = books.find((b) => b.id === id);
+    console.log(book);
+  };
   return (
     <section className='booklist'>
       {books.map((book) => (
-        <Book {...book} key={book.id} />
+        <Book {...book} key={book.id} getBook={getBook} />
       ))}
     </section>
   );
 };
-const Book = ({ title, author, img }) => {
+const Book = ({ title, author, img, getBook, id }) => {
   return (
     <article className='book'>
       <img alt={title} src={img} />
@@ -38,7 +42,7 @@ const Book = ({ title, author, img }) => {
         neque eligendi, nulla ea illum saepe distinctio aspernatur soluta.
         Molestiae, ipsa voluptatibus.
       </p>
-      <button>click me</button>
+      <button onClick={() => getBook(id)}>click me</button>
     </article>
   );
 };
