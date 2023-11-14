@@ -1,16 +1,12 @@
-import UseStateExample from './my-code/UseStateExample';
-import UseStateGotcha from './my-code/UseStateGotcha';
-import UseStateWithArray from './my-code/UseStateWithArray';
-import UseStateWithObject from './my-code/UseStateWithObject';
+import MultipleUseEffect from './my-code/useEffect/MultipleUseEffect';
+import UseEffectBasics from './my-code/useEffect/UseEffectBasics';
 
 function App() {
   return (
-    <>
-      <UseStateExample />
-      <UseStateWithArray />
-      <UseStateWithObject />
-      <UseStateGotcha />
-    </>
+    <div className='container'>
+      <UseEffectBasics />
+      <MultipleUseEffect />
+    </div>
   );
 }
 
