@@ -1,11 +1,9 @@
-import MultipleUseEffect from './my-code/useEffect/MultipleUseEffect';
-import UseEffectBasics from './my-code/useEffect/UseEffectBasics';
+import MultipleReturnBasics from './my-code/MultipleReturnBasics';
 
 function App() {
   return (
     <div className='container'>
-      <UseEffectBasics />
-      <MultipleUseEffect />
+      <MultipleReturnBasics />
     </div>
   );
 }
