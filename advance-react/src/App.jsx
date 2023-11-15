@@ -1,9 +1,9 @@
-import MultipleInput from './my-code/forms/MultipleInput';
+import OptionFormInput from './my-code/forms/OptionFormInput';
 
 function App() {
   return (
     <div className='container'>
-      <MultipleInput />
+      <OptionFormInput />
     </div>
   );
 }
