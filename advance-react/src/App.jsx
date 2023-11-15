@@ -1,9 +1,9 @@
-import List from './my-code/List';
+import ControlledInputs from './my-code/forms/ControlledInputs';
 
 function App() {
   return (
     <div className='container'>
-      <List />
+      <ControlledInputs />
     </div>
   );
 }
