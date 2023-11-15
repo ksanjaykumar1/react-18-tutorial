@@ -1,9 +1,9 @@
-import ControlledInputsChallenge from './my-code/forms/ControlledInputsChallenge';
+import MultipleInput from './my-code/forms/MultipleInput';
 
 function App() {
   return (
     <div className='container'>
-      <ControlledInputsChallenge />
+      <MultipleInput />
     </div>
   );
 }
