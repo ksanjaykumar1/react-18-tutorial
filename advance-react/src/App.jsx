@@ -1,10 +1,9 @@
-import UncontrolledInputs from './my-code/forms/FormDataAPI';
-import OptionFormInput from './my-code/forms/OptionFormInput';
+import ToggleExample from './my-code/custom-hooks/01-toggle';
 
 function App() {
   return (
     <div className='container'>
-      <UncontrolledInputs />
+      <ToggleExample />
     </div>
   );
 }
