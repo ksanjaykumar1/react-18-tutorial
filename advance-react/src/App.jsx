@@ -1,10 +1,11 @@
-import FetchData from './my-code/custom-hooks/02-fetch-data';
+import NavBar from './my-code/context-api/NavBar';
 
 function App() {
   return (
-    <div className='container'>
-      <FetchData />
-    </div>
+    <>
+      <NavBar />
+      {/* <Final /> */}
+    </>
   );
 }
 
