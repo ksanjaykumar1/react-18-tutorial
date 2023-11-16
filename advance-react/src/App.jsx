@@ -1,11 +1,11 @@
 import NavBar from './my-code/context-api/NavBar';
+import ReducerBasics from './my-code/useReducer/01-useReducer';
 
 function App() {
   return (
-    <>
-      <NavBar />
-      {/* <Final /> */}
-    </>
+    <div className='container'>
+      <ReducerBasics />
+    </div>
   );
 }
 
